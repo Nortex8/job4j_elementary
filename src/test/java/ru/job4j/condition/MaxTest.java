@@ -34,7 +34,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenAequalB() {
+    public void whenAequaB() {
         int left = 8;
         int right = 8;
         int result = Max.max(left, right);
