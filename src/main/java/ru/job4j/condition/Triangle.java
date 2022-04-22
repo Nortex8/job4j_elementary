@@ -5,7 +5,6 @@ public class Triangle {
         return ab + ac > bc && ac + bc > ab && ab + bc > ac;
     }
 
-    @SuppressWarnings("checkstyle:NoWhitespaceBefore")
     public static void main(String[] args) {
         System.out.println(Triangle.exist(2, 2, 2));
     }
