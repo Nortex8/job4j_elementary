@@ -16,11 +16,11 @@ public class FindLoopTest {
     @Test
     public void whenDiapasonHas2Then3() {
         int[] data = new int[]{5, 2, 10, 2, 122, 6, 12};
-        int el = 2;
+        int el = 122;
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexInRange(data, el, start, finish);
-        int expected = 3;
+        int expected = 4;
         Assert.assertEquals(expected, result);
     }
 
