@@ -14,7 +14,7 @@ public class Defragment {
             }
         }
         return array;
-    } // хочу заново сделать пуш и посмотреть будет ли ошибка в сборке
+    }
 
     public static void main(String[] args) {
         String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
